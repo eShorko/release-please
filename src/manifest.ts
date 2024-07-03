@@ -77,6 +77,7 @@ type ExtraTomlFile = {
   jsonpath: string;
   glob?: boolean;
 };
+
 export type ExtraFile =
   | string
   | ExtraJsonFile
